@@ -1,0 +1,36 @@
+{
+  "name": "rntrc-scraping",
+  "version": "1.0.0",
+  "description": "Script de Web Scraping realizado na página do RNTRC (Registo Nacional de Transportadores Rodoviários de Cargas).",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "puppeteer": "^5.2.1",
+    "puppeteer-extra": "^3.1.15",
+    "puppeteer-extra-plugin-stealth": "^2.6.0",
+    "xlsx": "^0.16.6",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willian2s/rntrc-scraping.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willian2s/rntrc-scraping/issues"
+  },
+  "homepage": "https://github.com/willian2s/rntrc-scraping#readme"
+}
